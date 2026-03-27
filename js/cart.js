@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
             cartContainer.innerHTML = `
                 <div class="text-center py-5">
                     <h4 class="text-muted">Your cart is currently empty.</h4>
-                    <a href="products.html" class="btn btn-outline-primary mt-3">Start Shopping</a>
                 </div>`;
             checkoutBtn.classList.add('disabled');
         } else {

@@ -27,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link active fw-semibold" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.php">Products</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
@@ -51,8 +51,8 @@
                     <h1 class="display-3 fw-800 mb-4">Future of Tech <br> <span class="text-primary">In Your Hands.</span></h1>
                     <p class="lead mb-5 text-light opacity-75">Experience the next generation of gadgets. High-performance hardware, sleek designs, and smart integration for your daily life.</p>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                        <a href="products.html" class="btn btn-primary btn-lg px-5 py-3 fw-bold rounded-pill">Explore Store</a>
-                        <a href="about.html" class="btn  btn-lg px-5 py-3 fw-bold rounded-pill ms-sm-3">Learn More</a>
+                        <a href="products.php" class="btn btn-primary btn-lg px-5 py-3 fw-bold rounded-pill">Explore Store</a>
+                        <a href="about.html" class="btn btn-lg px-5 py-3 fw-bold rounded-pill border text-primary">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -81,73 +81,6 @@
         </div>
     </section>
 
-    <section class="container my-5 py-5">
-        <div class="d-flex justify-content-between align-items-end mb-5">
-            <div>
-                <h2 class="fw-bold mb-0">Trending Now</h2>
-                <p class="text-muted">Most popular choices this week</p>
-            </div>
-            <a href="products.html" class="text-primary fw-bold text-decoration-none">View All <i class="fa-solid fa-arrow-right ms-1"></i></a>
-        </div>
-
-        <div class="row g-4">
-            <div class="col-md-6 col-lg-3">
-                <div class="card product-card h-100 shadow-sm">
-                    <div class="position-relative overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80" class="card-img-top" alt="Headphones">
-                        <span class="badge bg-danger position-absolute top-0 start-0 m-3">Hot</span>
-                    </div>
-                    <div class="card-body">
-                        <h6 class="text-muted small mb-1">Audio</h6>
-                        <h5 class="card-title fw-bold mb-3">Wireless Headphones</h5>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="fw-bold text-primary fs-5">$99.99</span>
-                            <a href="products.html" class="btn btn-sm btn-outline-dark rounded-circle"><i class="fa-solid fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card product-card h-100 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80" class="card-img-top" alt="Watch">
-                    <div class="card-body">
-                        <h6 class="text-muted small mb-1">Wearables</h6>
-                        <h5 class="card-title fw-bold mb-3">Smart Fitness Watch</h5>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="fw-bold text-primary fs-5">$149.99</span>
-                            <a href="products.html" class="btn btn-sm btn-outline-dark rounded-circle"><i class="fa-solid fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card product-card h-100 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500&q=80" class="card-img-top" alt="Mouse">
-                    <div class="card-body">
-                        <h6 class="text-muted small mb-1">Accessories</h6>
-                        <h5 class="card-title fw-bold mb-3">4K Action Camera</h5>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="fw-bold text-primary fs-5">$199.99</span>
-                            <a href="products.html" class="btn btn-sm btn-outline-dark rounded-circle"><i class="fa-solid fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card product-card h-100 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1595225476474-87563907a212?w=500&q=80" class="card-img-top" alt="Keyboard">
-                    <div class="card-body">
-                        <h6 class="text-muted small mb-1">Accessories</h6>
-                        <h5 class="card-title fw-bold mb-3">Mechanical Keyboard</h5>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="fw-bold text-primary fs-5">$129.99</span>
-                            <a href="products.html" class="btn btn-sm btn-outline-dark rounded-circle"><i class="fa-solid fa-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <footer class="bg-white text-dark py-5 border-top mt-auto">
         <div class="container">
             <div class="row g-4">
@@ -164,7 +97,7 @@
                     <h6 class="fw-bold mb-4">Quick Links</h6>
                     <ul class="list-unstyled small">
                         <li class="mb-2"><a href="index.html" class="text-decoration-none text-muted">Home</a></li>
-                        <li class="mb-2"><a href="products.html" class="text-decoration-none text-muted">Products</a></li>
+                        <li class="mb-2"><a href="products.php" class="text-decoration-none text-muted">Products</a></li>
                         <li class="mb-2"><a href="about.html" class="text-decoration-none text-muted">About Us</a></li>
                         <li class="mb-2"><a href="contact.html" class="text-decoration-none text-muted">Contact</a></li>
                     </ul>
