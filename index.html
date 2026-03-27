@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone | Premium Electronics Store</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fa-solid fa-microchip text-primary"></i> TECHZONE
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active fw-semibold" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a href="cart.html" class="btn btn-dark position-relative rounded-pill px-4">
+                        <i class="fa-solid fa-cart-shopping me-2"></i> Cart
+                        <span id="cart-badge" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            0
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center d-flex align-items-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <span class="badge bg-primary mb-3 px-3 py-2 rounded-pill">NEW ARRIVALS 2026</span>
+                    <h1 class="display-3 fw-800 mb-4">Future of Tech <br> <span class="text-primary">In Your Hands.</span></h1>
+                    <p class="lead mb-5 text-light opacity-75">Experience the next generation of gadgets. High-performance hardware, sleek designs, and smart integration for your daily life.</p>
+                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                        <a href="products.html" class="btn btn-primary btn-lg px-5 py-3 fw-bold rounded-pill">Explore Store</a>
+                        <a href="about.html" class="btn  btn-lg px-5 py-3 fw-bold rounded-pill ms-sm-3">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5 bg-light border-bottom">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md-4">
+                    <i class="fa-solid fa-truck-fast fa-2x text-primary mb-3"></i>
+                    <h5 class="fw-bold">Free Shipping</h5>
+                    <p class="text-muted small">On all orders over $500</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa-solid fa-shield-halved fa-2x text-primary mb-3"></i>
+                    <h5 class="fw-bold">Secure Payment</h5>
+                    <p class="text-muted small">100% protected transactions</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa-solid fa-rotate-left fa-2x text-primary mb-3"></i>
+                    <h5 class="fw-bold">Easy Returns</h5>
+                    <p class="text-muted small">30-day money back guarantee</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5 py-5">
+        <div class="d-flex justify-content-between align-items-end mb-5">
+            <div>
+                <h2 class="fw-bold mb-0">Trending Now</h2>
+                <p class="text-muted">Most popular choices this week</p>
+            </div>
+            <a href="products.html" class="text-primary fw-bold text-decoration-none">View All <i class="fa-solid fa-arrow-right ms-1"></i></a>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card product-card h-100 shadow-sm">
+                    <div class="position-relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80" class="card-img-top" alt="Headphones">
+                        <span class="badge bg-danger position-absolute top-0 start-0 m-3">Hot</span>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-muted small mb-1">Audio</h6>
+                        <h5 class="card-title fw-bold mb-3">Wireless Headphones</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-bold text-primary fs-5">$99.99</span>
+                            <a href="products.html" class="btn btn-sm btn-outline-dark rounded-circle"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card product-card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80" class="card-img-top" alt="Watch">
+                    <div class="card-body">
+                        <h6 class="text-muted small mb-1">Wearables</h6>
+                        <h5 class="card-title fw-bold mb-3">Smart Fitness Watch</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-bold text-primary fs-5">$149.99</span>
+                            <a href="products.html" class="btn btn-sm btn-outline-dark rounded-circle"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card product-card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=500&q=80" class="card-img-top" alt="Mouse">
+                    <div class="card-body">
+                        <h6 class="text-muted small mb-1">Accessories</h6>
+                        <h5 class="card-title fw-bold mb-3">4K Action Camera</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-bold text-primary fs-5">$199.99</span>
+                            <a href="products.html" class="btn btn-sm btn-outline-dark rounded-circle"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card product-card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1595225476474-87563907a212?w=500&q=80" class="card-img-top" alt="Keyboard">
+                    <div class="card-body">
+                        <h6 class="text-muted small mb-1">Accessories</h6>
+                        <h5 class="card-title fw-bold mb-3">Mechanical Keyboard</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-bold text-primary fs-5">$129.99</span>
+                            <a href="products.html" class="btn btn-sm btn-outline-dark rounded-circle"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-white text-dark py-5 border-top mt-auto">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-4"><i class="fa-solid fa-microchip text-primary"></i> TECHZONE</h5>
+                    <p class="text-muted small">Leading the way in consumer electronics. We provide the highest quality tech gadgets with a focus on durability and innovation.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-dark"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-dark"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="text-dark"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2 offset-lg-2">
+                    <h6 class="fw-bold mb-4">Quick Links</h6>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="index.html" class="text-decoration-none text-muted">Home</a></li>
+                        <li class="mb-2"><a href="products.html" class="text-decoration-none text-muted">Products</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-decoration-none text-muted">About Us</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-decoration-none text-muted">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <h6 class="fw-bold mb-4">Store Location</h6>
+                    <p class="text-muted small"><i class="fa-solid fa-location-dot me-2"></i>New Valley, Cairo</p>
+                    <p class="text-muted small"><i class="fa-solid fa-phone me-2"></i>+20 1220876389</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0 text-muted small">&copy; 2026 TechZone Store. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
